@@ -1,0 +1,421 @@
+.header {
+    background: radial-gradient(14.69% 84.72% at 50% 0%, #754D8B 0%, #022E5D 100%), #002E5D;
+}
+
+.nav-link {
+    color: white;
+    font-size: small;
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+#logo {
+    width: 40%;
+}
+
+#logo-2 {
+    width: 10%;
+}
+
+#myVideo {
+    object-fit: initial;
+    width: 98.9vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.videoBanner .buttonVolum {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    top: 15%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.fa-volume-mute:before {
+    content: "\f028";
+}
+
+.logo_header {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center bottom;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.pattern_homebanner {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 120px;
+    width: 400px;
+    background-position: top center;
+    top: 72px;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 2;
+}
+
+.phone {
+    color: white;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    padding-left: 4rem;
+}
+
+.menu {
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0.5rem;
+    list-style: none;
+}
+
+li {
+    padding: 0.5rem;
+}
+
+a {
+    color: white;
+}
+
+.center {
+    display: flex;
+    margin-left: -8rem;
+}
+
+.right {
+    display: flex;
+    margin-left: 7rem;
+}
+
+.contact {
+    display: flex;
+    padding-top: 0.9rem;
+    padding-bottom: 0.1rem;
+    list-style: none;
+}
+
+.footer {
+    background: black;
+    position: relative;
+    color: white;
+}
+
+.footer hr {
+    background-color: white;
+    width: 20pt;
+    margin-left: 0;
+}
+
+.descript_logo1 {
+    padding-top: 3rem;
+    justify-content: space-between;
+}
+
+.footer .descript_logo1 img {
+    width: 50%;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+}
+
+.lien_he {
+    padding-top: 3rem;
+    justify-content: space-between;
+}
+
+.introduce {
+    position: relative;
+    background-image: url(./Images/Logo/bg-1.webp);
+    z-index: 9;
+    padding-top: 4rem;
+    padding-bottom: 12rem;
+}
+
+.content {
+    margin-right: 5rem;
+    margin-top: -1rem;
+}
+
+.content h3 {
+    color: #CDAE87;
+    text-align: center;
+    font-weight: bold;
+}
+
+.txt_gradient {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(93.35deg, #97D9EC -19.77%, #F6F5C8 46%, #DBB5D5 122.25%);
+    -webkit-background-clip: text;
+}
+
+.content article {
+    color: white;
+    text-align: center;
+}
+
+.introduce .boxIntro {
+    top: 15rem;
+    position: absolute;
+    width: 75%;
+}
+
+.slick-slide {
+    width: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 200px;
+    padding-left: 2.5rem;
+    border-left: 1px solid #cccccc59;
+    padding: 2.5rem;
+}
+
+.introduce .boxIntro span {
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: -1rem;
+}
+
+.introduce .boxIntro .number {
+    display: flex;
+    align-items: flex-end;
+}
+
+.introduce .boxIntro .number .no {
+    color: #CDAE87;
+    font-size: 50px;
+    height: 64px;
+}
+
+.introduce .boxIntro .number p {
+    color: white;
+    line-height: 18px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 64px;
+    margin-bottom: 1.7rem;
+    margin-left: 0.5rem;
+    font-size: 30px;
+}
+
+.prodBlock {
+    height: 200px;
+    background: linear-gradient(180deg, #E2DDDB 48.44%, #C5C2DC 60.94%, #C2BDDC 74.48%, #D1CCDC 89.06%, #E2DDDB 100%);
+}
+
+/* SLICK: DOTS */
+
+.slick-dots {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.slick-dots .slick-active button {
+    border: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+}
+
+.slick-dots li {
+    display: flex;
+    align-items: center;
+    margin: 0 4px;
+    padding: 0;
+    height: 20px;
+    width: 20px;
+}
+
+.slick-dots li button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #fff;
+    border-radius: 50%;
+    opacity: 0;
+    display: block;
+    height: 18px;
+    width: 18px;
+    outline: none;
+    line-height: 0px;
+    font-size: 0px;
+    cursor: pointer;
+}
+
+.proUti {
+    color: #fff;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bot center;
+    background-size: 100% auto;
+    position: relative;
+}
+
+.imghasmarker {
+    position: relative;
+}
+
+.proUti .imghasmarker img {
+    width: 100%;
+}
+
+.listmarkerProd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.proUti .listmarkerProd .item {
+    position: absolute;
+}
+
+.proUti .listmarkerProd .item:nth-child(1) {
+    top: 7%;
+    left: 13.5%;
+}
+
+.proUti .listmarkerProd .item:nth-child(2) {
+    top: 30%;
+    left: 6.7%;
+}
+
+.proUti .listmarkerProd .item:nth-child(3) {
+    top: 35.5%;
+    left: 14%;
+}
+
+.proUti .listmarkerProd .item:nth-child(4) {
+    top: 59%;
+    left: 15%;
+}
+
+.proUti .listmarkerProd .item:nth-child(5) {
+    top: 55%;
+    left: 32.5%;
+}
+
+.proUti .listmarkerProd .item:nth-child(6) {
+    top: 72%;
+    left: 28%;
+}
+
+.proUti .listmarkerProd .item:nth-child(7) {
+    top: 53%;
+    left: 49%;
+}
+
+.proUti .listmarkerProd .item:nth-child(8) {
+    top: 49%;
+    left: 54%;
+}
+
+.proUti .listmarkerProd .item:nth-child(9) {
+    top: 36%;
+    left: 42.5%;
+}
+
+.proUti .listmarkerProd .item:nth-child(10) {
+    top: 26%;
+    left: 41.5%;
+}
+
+.proUti .listmarkerProd .item:nth-child(11) {
+    top: 12%;
+    left: 41%;
+}
+
+.proUti .listmarkerProd .item:nth-child(12) {
+    top: 12%;
+    left: 52%;
+}
+
+.proUti .listmarkerProd .item:nth-child(13) {
+    top: 31%;
+    left: 71.5%;
+}
+
+.proUti .listmarkerProd .item:nth-child(14) {
+    top: 30%;
+    left: 78.5%;
+}
+
+.proUti .listmarkerProd .item:nth-child(15) {
+    top: 49%;
+    left: 82%;
+}
+
+.proUti .listmarkerProd .item .number {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: linear-gradient( 225deg, #F8C361 0%, #AA7028 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.proUti .listmarkerProd .item p {
+    opacity: 1;
+    background: var(--color-blue);
+    width: max-content;
+    padding: 2px;
+    border: 1px solid var(--color-yellow);
+    color: var(--color-yellow);
+    top: 10px;
+    left: 50%;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 2px;
+    transform: translate(-50%, -55px);
+    transition: var(--transition-smooth);
+    pointer-events: none;
+    margin: 0;
+    transition-delay: .15s;
+    position: absolute;
+    z-index: 9;
+}
+
+.prodProd {
+    background: linear-gradient( 180deg, #FDFDDB 0%, rgba(222, 244, 231, 0.48) 15.62%, rgba(239, 239, 242, 0.26) 36.46%, #FFFFFF 100%);
+    height: 100vh;
+    margin-top: 2rem;
+    padding-top: 4rem;
+}
+
+.prodProd .row {
+    height: 100%;
+}
+
