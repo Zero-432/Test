@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
     <link rel="stylesheet" href="./Index.css">
     <!-- <link rel="stylesheet" href="./loader.css"> -->
 </head>
@@ -23,13 +24,13 @@
             <div class="left">
                 <ul class="menu">
                     <li>
-                        <a href="#">TRANG CHỦ</a>
+                        <a href="Index.html">TRANG CHỦ</a>
                     </li>
                     <li>
-                        <a href="#">VỀ CHỦ ĐẦU TƯ</a>
+                        <a href="#profile">VỀ CHỦ ĐẦU TƯ</a>
                     </li>
                     <li>
-                        <a href="#">SẢN PHẨM</a>
+                        <a href="#thu-vien">SẢN PHẨM</a>
                     </li>
                 </ul>
             </div>
@@ -47,10 +48,20 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">TIỆN ÍCH</a>
+                        <a href="#chuthich">TIỆN ÍCH</a>
                     </li>
                     <li>
-                        <a href="#">LIÊN HỆ</a>
+                        <a href="#infoFooter">LIÊN HỆ</a>
+                    </li>
+                    <li>
+                        <a href="./Login.html" class="icon__item">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./Payment.html" class="icon__item">
+                            <i class="fas fa-shopping-cart" id="cart__icon"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -74,9 +85,8 @@
                         <h3 class="txt_gradient">Chúng Ta Group</h3>
                         <article>
                             Với muôn vàn cung bậc của trái tim, từ êm đềm thảnh thơi đến cháy bừng hứng
-                            khởi, Vega Continental<br>Shopping Plaza mang đậm cảm hứng cuộc đại hải trình vĩ
-                            đại, nơi nhịp sống rộn
-                            ràng không ngừng nghỉ,<br>thắp sáng lên một khung trời lễ hội.
+                            khởi, CHÚNG TA GROUP<br>mang lại những cảm giác mới mẻ, nơi nhịp sống rộn
+                            ràng không ngừng nghỉ,<br>thắp sáng lên một khung trời tươi sáng.
                         </article>
                     </div>
                     <div class="boxIntro">
@@ -85,7 +95,7 @@
                                 <span>Tổng diện tích đất</span>
                                 <div class="number">
                                     <div class="no">
-                                        <h1 class="txt_gradient">30,350</h1>
+                                        <h1 class="txt_gradient">70,000</h1>
                                     </div>
                                     <p>m
                                         <sup>2</sup>
@@ -96,7 +106,7 @@
                                 <span>Tổng diện tích xây dựng</span>
                                 <div class="number">
                                     <div class="no">
-                                        <h1 class="txt_gradient">9,055</h1>
+                                        <h1 class="txt_gradient">10,000</h1>
                                     </div>
                                     <p>m
                                         <sup>2</sup>
@@ -104,10 +114,10 @@
                                 </div>
                             </div>
                             <div class="slick-slide">
-                                <span>Tổng diện tích xây dựng</span>
+                                <span>Diện tích xây dựng TP.HCM</span>
                                 <div class="number">
                                     <div class="no">
-                                        <h1 class="txt_gradient">9,055</h1>
+                                        <h1 class="txt_gradient">5,055</h1>
                                     </div>
                                     <p>m
                                         <sup>2</sup>
@@ -115,35 +125,35 @@
                                 </div>
                             </div>
                             <div class="slick-slide">
-                                <span>Tổng diện tích xây dựng</span>
+                                <span>Sở hữu</span>
                                 <div class="number">
                                     <div class="no">
-                                        <h1 class="txt_gradient">9,055</h1>
+                                        <h1 class="txt_gradient">5</h1>
                                     </div>
-                                    <p>m
-                                        <sup>2</sup>
+                                    <p>Hecta
+                                        <!-- <sup>2</sup> -->
                                     </p>
                                 </div>
                             </div>
                             <div class="slick-slide">
-                                <span>Tổng diện tích xây dựng</span>
+                                <span>Tổng sản phẩm thiết kế</span>
                                 <div class="number">
                                     <div class="no">
-                                        <h1 class="txt_gradient">9,055</h1>
+                                        <h1 class="txt_gradient">1,000</h1>
                                     </div>
-                                    <p>m
-                                        <sup>2</sup>
+                                    <p>sp
+                                        <!-- <sup>2</sup> -->
                                     </p>
                                 </div>
                             </div>
                             <div class="slick-slide">
-                                <span>Tổng diện tích xây dựng</span>
+                                <span>Tổng doanh thu</span>
                                 <div class="number">
                                     <div class="no">
-                                        <h1 class="txt_gradient">9,055</h1>
+                                        <h1 class="txt_gradient">1,000,000</h1>
                                     </div>
-                                    <p>m
-                                        <sup>2</sup>
+                                    <p>$
+                                        <!-- <sup>2</sup> -->
                                     </p>
                                 </div>
                             </div>
@@ -163,7 +173,7 @@
                                 1
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                Pham Van Dong street
                             </p>
                         </div>
                         <div class="item">
@@ -171,7 +181,7 @@
                                 2
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                Bay hotels & suites
                             </p>
                         </div>
                         <div class="item">
@@ -179,7 +189,7 @@
                                 3
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                Treasure island
                             </p>
                         </div>
                         <div class="item">
@@ -187,7 +197,7 @@
                                 4
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                Vega beach club
                             </p>
                         </div>
                         <div class="item">
@@ -195,7 +205,7 @@
                                 5
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                Sport beach center
                             </p>
                         </div>
                         <div class="item">
@@ -203,7 +213,7 @@
                                 6
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                Coral park
                             </p>
                         </div>
                         <div class="item">
@@ -211,7 +221,7 @@
                                 7
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                beach street
                             </p>
                         </div>
                         <div class="item">
@@ -219,7 +229,7 @@
                                 8
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                center Square
                             </p>
                         </div>
                         <div class="item">
@@ -227,7 +237,7 @@
                                 9
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                Columbus boat
                             </p>
                         </div>
                         <div class="item">
@@ -235,7 +245,7 @@
                                 10
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                lake landscape
                             </p>
                         </div>
                         <div class="item">
@@ -243,7 +253,7 @@
                                 11
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                Shopping plaza
                             </p>
                         </div>
                         <div class="item">
@@ -251,7 +261,7 @@
                                 12
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                Walk of fame
                             </p>
                         </div>
                         <div class="item">
@@ -259,7 +269,7 @@
                                 13
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                Lotus opera
                             </p>
                         </div>
                         <div class="item">
@@ -267,7 +277,7 @@
                                 14
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                New world hotel
                             </p>
                         </div>
                         <div class="item">
@@ -275,14 +285,14 @@
                                 15
                             </div>
                             <p>
-                                Đường Phạm Văn Đồng kéo dài
+                                Gran melia center
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="container">
                     <h3 style="font-weight: bold;" class="txt_gradient"></h3>
-                    <div class="row content">
+                    <div class="row content" id="chuthich">
                         <div class="col-md-2 note">
                             <div class="button">
                                 <button type="button" data-toggle="modal" data-target="#danhsachtienich">
@@ -290,11 +300,12 @@
                                     <div class="cycle"></div>
                                 </button>
                             </div>
-                            <div class="modal fade" id="danhsachtienich" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal fade" id="danhsachtienich" role="dialog" aria-hidden="true">
                                 <div class="modal-dialog" role="document" aria-labelledby="exampleModalLabel">
                                     <div class="modal-content">
-                                        <div class="model-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Danh sách tiện ích</h5>
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Danh sách tiện ích của sản
+                                                phẩm</h5>
                                             <button class="close" type="button" data-dismiss="modal" aria-label="close">
                                                 <span aria-hidden="true"></span>
                                             </button>
@@ -302,23 +313,131 @@
                                         <div class="modal-body">
                                             <div class="listBoxProd">
                                                 <ul>
-                                                    <li>1. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>2. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>3. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>4. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>5. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>6. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>7. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>8. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>9. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>10. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>11. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>12. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>13. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>14. Đường Phạm Văn Đồng kéo dài</li>
-                                                    <li>15. Đường Phạm Văn Đồng kéo dài</li>
+                                                    <li>1. Pham Van Dong street</li>
+                                                    <li>2. Bay hotels & suites</li>
+                                                    <li>3. Treasure island</li>
+                                                    <li>4. Vega beach club</li>
+                                                    <li>5. Sport beach center</li>
+                                                    <li>6. Coral park</li>
+                                                    <li>7. beach street</li>
+                                                    <li>8. center Square</li>
+                                                    <li>9. Columbus boat</li>
+                                                    <li>10. lake landscape</li>
+                                                    <li>11. Shopping plaza</li>
+                                                    <li>12. Walk of fame</li>
+                                                    <li>13. Lotus opera</li>
+                                                    <li>14. New world hotel</li>
+                                                    <li>15. Gran melia center</li>
                                                 </ul>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 left">
+                            <div class="chuthichkhu">
+                                <div class="item col-6">
+                                    <div class="index">
+                                        <div class="number" style="background: #f6af4f"> </div>
+                                        <div class="desc">
+                                            <h4>Căn shophouse loại A1</h4>
+                                            <p>(mặt tiền 5,5m - hầm lớn)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item col-6">
+                                    <div class="index">
+                                        <div class="number" style="background: #EA5F33"> </div>
+                                        <div class="desc">
+                                            <h4>Căn shophouse loại A2</h4>
+                                            <p>(mặt tiền 3,5m - hầm nhỏ)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item col-6">
+                                    <div class="index">
+                                        <div class="number" style="background: #40aeda"> </div>
+                                        <div class="desc">
+                                            <h4>Căn shophouse loại B1</h4>
+                                            <p>(mặt tiền 5,0m - hầm lớn)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item col-6">
+                                    <div class="index">
+                                        <div class="number" style="background: #404992"> </div>
+                                        <div class="desc">
+                                            <h4>Căn shophouse loại B2</h4>
+                                            <p>(mặt tiền 4,5m - hầm đỗ xe)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chuthichkhu">
+                                <div class="item col-6">
+                                    <div class="index">
+                                        <div class="number" style="background: #48c2c9"> </div>
+                                        <div class="desc">
+                                            <h4>Tiểu khu Hawaii</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item col-6">
+                                    <div class="index">
+                                        <div class="number" style="background: #F1C618"> </div>
+                                        <div class="desc">
+                                            <h4>Tiểu khu California</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item col-6">
+                                    <div class="index">
+                                        <div class="number" style="background: #B9509E"> </div>
+                                        <div class="desc">
+                                            <h4>Tiểu khu New Zealand</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item col-6">
+                                    <div class="index">
+                                        <div class="number" style="background: #A7CF38"> </div>
+                                        <div class="desc">
+                                            <h4>Tiểu khu Australia</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chuthichkhu">
+                                <div class="item col-6">
+                                    <div class="index">
+                                        <img src="./Images/Logo/KioskIcon.webp">
+                                        <div class="desc">
+                                            <h4>Kios dịch vụ</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item col-6">
+                                    <div class="index">
+                                        <img src="./Images/Logo/Thong-gioIcon.webp">
+                                        <div class="desc">
+                                            <h4>Thông gió</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item col-6">
+                                    <div class="index">
+                                        <img src="./Images/Logo/Ham-di-boIcon.webp">
+                                        <div class="desc">
+                                            <h4>Lối lên xuống hầm đi bộ</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item col-6">
+                                    <div class="index">
+                                        <img src="./Images/Logo/Ham-otoIcon.webp">
+                                        <div class="desc">
+                                            <h4>Lối lên xuống hầm ô tô</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -327,15 +446,163 @@
                     </div>
                 </div>
             </div>
-            <div class="prodProd">
+            <div class="prodProd" id="profile">
                 <div class="row">
-                    <div class="col-md-4 left">
+                    <div class="col-md-4 left" style="background-image: url(./Images/Logo/Mask-Group.svg);">
                         <div class="text">
                             <h3>Âm hưởng<br>Kiến trúc vị nhân sinh</h3>
                             <div class="btnline">
+                                <svg class="line" width="1" height="68" viewBox="0 0 1 68" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.499999 68L0.500002 -2.18556e-08" stroke="#A02143"></path>
+                                </svg>
                                 <svg class="oval" width="21" height="20" viewBox="0 0 21 20" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M20.5247 9.93398C15.2787 9.6428 10.7949 5.30769 10.7949 -4.253e-07C10.7949 5.30769 6.06202 9.6428 0.524656 9.93398L0.524656 10.0661C6.06202 10.3575 10.7949 14.6937 10.7949 20C10.7949 14.6937 15.2787 10.3575 20.5247 10.0661L20.5247 9.93398Z"
+                                        fill="#A02143"></path>
+                                    <path
+                                        d="M20.5247 9.93398L20.8997 9.93398L20.8997 9.57922L20.5454 9.55956L20.5247 9.93398ZM0.524656 9.93398L0.504964 9.5595L0.149656 9.57818L0.149656 9.93398L0.524656 9.93398ZM0.524656 10.0661L0.149656 10.0661L0.149656 10.4219L0.504955 10.4406L0.524656 10.0661ZM20.5247 10.0661L20.5454 10.4406L20.8997 10.4209L20.8997 10.0661L20.5247 10.0661ZM10.4199 -4.41692e-07C10.4199 5.52422 15.0772 10.0072 20.5039 10.3084L20.5454 9.55956C15.4803 9.27841 11.1699 5.09116 11.1699 -4.08908e-07L10.4199 -4.41692e-07ZM10.4199 -4.41692e-07C10.4199 5.07382 5.87942 9.27688 0.504964 9.5595L0.544347 10.3085C6.24461 10.0087 11.1699 5.54156 11.1699 -4.08908e-07L10.4199 -4.41692e-07ZM0.149656 9.93398L0.149656 10.0661L0.899656 10.0661L0.899656 9.93398L0.149656 9.93398ZM0.504955 10.4406C5.8794 10.7234 10.4199 14.9276 10.4199 20L11.1699 20C11.1699 14.4599 6.24463 9.99155 0.544357 9.69167L0.504955 10.4406ZM20.5039 9.69173C15.0772 9.99308 10.4199 14.4772 10.4199 20L11.1699 20C11.1699 14.9102 15.4803 10.7218 20.5454 10.4406L20.5039 9.69173ZM20.1497 9.93398L20.1497 10.0661L20.8997 10.0661L20.8997 9.93398L20.1497 9.93398Z"
+                                        fill="#A02143"></path>
                                 </svg>
+                            </div>
+                            <p>99 tiện ích và trăm điểm "check-in"</p>
+                            <article>
+                                Không dừng lại ở một khái niệm đầu tư và trao đổi mua bán đơn thuần, CTGroup mang đậm
+                                triết lý “vị nhân sinh” nơi con người là hạt nhân và là khởi nguồn của
+                                mọi phát kiến, sáng tạo.
+                            </article>
+                        </div>
+                    </div>
+                    <div class="col-md-8 right1">
+                        <div class="slider2">
+                            <div class="slick-slides">
+                                <img src="./Images/Logo/wallpaper-1.webp">
+                            </div>
+                            <div class="slick-slides">
+                                <img src="./Images/Logo/wallpaper-2.webp">
+                            </div>
+                            <div class="slick-slides">
+                                <img src="./Images/Logo/wallpaper-3.webp">
+                            </div>
+                            <div class="slick-slides">
+                                <img src="./Images/Logo/wallpaper-4.webp">
+                            </div>
+                            <div class="slick-slides">
+                                <img src="./Images/Logo/wallpaper-5.webp">
+                            </div>
+                            <div class="slick-slides">
+                                <img src="./Images/Logo/wallpaper-6.webp">
+                            </div>
+                            <div class="slick-slides">
+                                <img src="./Images/Logo/wallpaper-7.webp">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="utiLibrary" id="thu-vien">
+                <div class="container">
+                    <div class="deco">
+                        <img src="./Images/Logo/Mask-Group-13.png">
+                    </div>
+                    <h2>Sản phẩm</h2>
+                </div>
+                <div class="contentLibrr">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#nha" role="tab" data-toggle="tab" aria-selected="true">khu
+                                nghỉ dưỡng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#dat" role="tab" data-toggle="tab" aria-selected="true">Đất
+                                nền</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#thietke" role="tab" data-toggle="tab" aria-selected="true">Mẫu
+                                thiết kế</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active in" id="nha">
+                            <div class="listing">
+                                <a href="./Images/Logo/wallpaper-1.webp" data-fancybox="images">
+                                    <img src="./Images/Logo/wallpaper-1.webp" />
+                                </a>
+
+                                <a href="./Images/Logo/wallpaper-2.webp" data-fancybox="images">
+                                    <img src="./Images/Logo/wallpaper-2.webp" />
+                                </a>
+
+                                <a href="./Images/Logo/wallpaper-3.webp" data-fancybox="images">
+                                    <img src="./Images/Logo/wallpaper-3.webp" />
+                                </a>
+                                <a href="./Images/Logo/wallpaper-4.webp" data-fancybox="images">
+                                    <img src="./Images/Logo/wallpaper-4.webp" />
+                                </a>
+                                <a href="./Images/Logo/wallpaper-5.webp" data-fancybox="images">
+                                    <img src="./Images/Logo/wallpaper-5.webp" />
+                                </a>
+                                <a href="./Images/Logo/wallpaper-6.webp" data-fancybox="images">
+                                    <img src="./Images/Logo/wallpaper-6.webp" />
+                                </a>
+                                <a href="./Images/Logo/wallpaper-7.webp" data-fancybox="images">
+                                    <img src="./Images/Logo/wallpaper-7.webp" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" role="tabpanel" id="dat">
+                            <div class="listing">
+                                <a href="./Images/Logo/dat-1.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/dat-1.jpg" />
+                                </a>
+
+                                <a href="./Images/Logo/dat-2.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/dat-2.jpg" />
+                                </a>
+
+                                <a href="./Images/Logo/dat-3.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/dat-3.jpg" />
+                                </a>
+                                <a href="./Images/Logo/dat-4.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/dat-4.jpg" />
+                                </a>
+                                <a href="./Images/Logo/dat-5.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/dat-5.jpg" />
+                                </a>
+                                <a href="./Images/Logo/dat-6.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/dat-6.jpg" />
+                                </a>
+                                <a href="./Images/Logo/dat-7.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/dat-7.jpg" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" role="tabpanel" id="thietke">
+                            <div class="listing">
+                                <a href="./Images/Logo/thietke-1.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/thietke-1.jpg" />
+                                </a>
+
+                                <a href="./Images/Logo/thietke-2.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/thietke-2.jpg" />
+                                </a>
+
+                                <a href="./Images/Logo/thietke-3.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/thietke-3.jpg" />
+                                </a>
+                                <a href="./Images/Logo/thietke-4.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/thietke-4.jpg" />
+                                </a>
+                                <a href="./Images/Logo/thietke-5.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/thietke-5.jpg" />
+                                </a>
+                                <a href="./Images/Logo/thietke-6.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/thietke-6.jpg" />
+                                </a>
+                                <a href="./Images/Logo/thietke-7.jpg" data-fancybox="images">
+                                    <img src="./Images/Logo/thietke-7.jpg" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -344,7 +611,83 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="container d-flex">
+        <div id="contact_footer" class="footerForm" style="background-image: url(./Images/Logo/banner-4.webp);">
+            <div role="form" class="wpcf7" id="wpcf7-f170-o1" lang="vi" dir="ltr">
+                <div class="screen-reader-response">
+                    <p role="status" aria-live="polite" aria-atomic="true">
+                    <ul></ul>
+                    </p>
+                </div>
+                <form class="wpcf7-form init" method="POST" novalidate="novalidate" data-status="init">
+                    <div style="display: none;">
+                        <input type="hidden" name="_wpcf7" value="170" />
+                        <input type="hidden" name="_wpcf7_version" value="5.3" />
+                        <input type="hidden" name="_wpcf7_locale" value="vi" />
+                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f170-o1" />
+                        <input type="hidden" name="_wpcf7_container_post" value="0" />
+                        <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+                    </div>
+                    <div class="formWrapper">
+                        <div class="container">
+                            <h2>
+                                Đăng ký nhận tư vấn dự án<br />
+                            </h2>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>HỌ TÊN</label><br />
+                                        <span class="wpcf7-form-control-wrap your_name"><input type="text"
+                                                name="your_name" value="" size="40"
+                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
+                                                aria-required="true" aria-invalid="false"
+                                                placeholder="Trinh Cong Dao" /></span>
+                                    </div>
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>SỐ ĐIỆN THOẠI</label><br />
+                                        <span class="wpcf7-form-control-wrap your_phone"><input type="tel"
+                                                name="your_phone" value="" size="40"
+                                                class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control"
+                                                aria-required="true" aria-invalid="false"
+                                                placeholder="038 224 2450" /></span>
+                                    </div>
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>EMAIL</label><br />
+                                        <span class="wpcf7-form-control-wrap your_email"><input type="email"
+                                                name="your_email" value="" size="40"
+                                                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control"
+                                                aria-required="true" aria-invalid="false"
+                                                placeholder="trinhcongdao@ctg.com" /></span>
+                                    </div>
+                                    </p>
+                                </div>
+                                </p>
+                            </div>
+                            <div class="row no-gutters mt-4 justify-content-center">
+                                <div class="checkbox">
+                                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><br />
+                                    <label for="vehicle1"> Tôi muốn đăng ký nhận tin tức mới nhất từ
+                                        <strong>CTGroup</strong></label>
+                                </div>
+                                <p> <button type="submit" class="btn_formWrapper">Gửi yêu cầu &nbsp;<i
+                                            class="fas fa-envelope"></i></button>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="wpcf7-response-output" aria-hidden="true"></div>
+                </form>
+            </div>
+        </div>
+        </form>
+        </div>
+        </div>
+        <div class="container d-flex" id="infoFooter">
             <div class="col-4">
                 <div class="descript_logo1">
                     <img src="./Images/Logo/Logo.svg">
@@ -352,10 +695,14 @@
                 </div>
                 <ul class="social">
                     <li>
-                        <a href="https://facebook.com"><img src="./Images/Logo/Facebook.webp" /></a>
+                        <a href="https://facebook.com">
+                            <div class="social_icon" style="background-image: url(./Images/Logo/Facebook.webp);"></div>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://youtube.com"><img src="./Images/Logo/youtube.webp" /></a>
+                        <a href="https://youtube.com">
+                            <div class="social_icon" style="background-image: url(./Images/Logo/youtube.webp);"></div>
+                        </a>
                     </li>
                 </ul>
                 <div>
@@ -370,9 +717,9 @@
                     </span>
                 </div>
                 <p>
-                    Địa chỉ: Khu vực Bãi Tiên, phường Vĩnh Hoà, thành phố Nha Trang<br>
-                    Hotline: 08 9966 7979<br>
-                    Email: Info@vegacity.vn
+                    Địa chỉ: Ktx khu B, ĐHQG, Tô Vĩnh Diện, HCM<br>
+                    Hotline: 038 224 2450<br>
+                    Email: info@ctg.com
                 </p>
             </div>
             <div class="col-4">
@@ -384,11 +731,11 @@
                 </div>
                 <p>
                     VĂN PHÒNG HÀ NỘI<br>
-                    16A Nguyễn Công Trứ, quận Hai Bà<br>Trưng, Hà Nội
+                    Vinhomes Tân Cảng, Bình Thạnh, Thành phố Hồ Chí Minh
                 </p>
                 <p>
                     VĂN PHÒNG HỒ CHÍ MINH<br>
-                    Tòa nhà Yoco, 41 Nguyễn Thị Minh<br>Khai, Quận 1, TP. Hồ Chí Minh
+                    Tòa nhà Landmark, 208 đường Nguyễn Hữu Cảnh, P.22,<br>Q.Bình Thạnh, TP.HCM
                 </p>
                 <p>
                     VĂN PHÒNG NHA TRANG<br>
@@ -407,6 +754,7 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 <script src="./main.js"></script>
 <script src="./slick.js"></script>
 

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <style>
+        @media all and (min-width: 800px) {
+            .fancybox-thumbs {
+                top: auto;
+                width: auto;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 95px;
+                padding: 10px 10px 5px 10px;
+                box-sizing: border-box;
+                background: rgba(0, 0, 0, 0.3);
+            }
+
+            .fancybox-show-thumbs .fancybox-inner {
+                right: 0;
+                bottom: 95px;
+            }
+        }
+
+        .imglist img{
+            width: 25%;
+        }
+        .imglist a :hover{
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>fancyBox v3.2 - Display thumbnails on start</h2>
+
+    <p class="imglist">
+        <a href="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" data-fancybox="images">
+            <img src="https://c1.staticflickr.com/9/8148/29324593462_abebaddc38_k.jpg" />
+        </a>
+
+
+        <a href="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" data-fancybox="images">
+            <img src="https://c2.staticflickr.com/6/5499/30972532232_051e1dc57e_h.jpg" />
+        </a>
+
+        <a href="https://farm1.staticflickr.com/582/32752534825_4b35b2df81_o_d.jpg" data-fancybox="images">
+            <img src="https://farm1.staticflickr.com/582/32752534825_4b35b2df81_o_d.jpg" />
+        </a>
+    </p>
+</body>
+<script type="javascript">
+    $('[data-fancybox="images"]').fancybox({
+        thumbs : {
+          autoStart : true
+        }
+      })
+      
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+</html>

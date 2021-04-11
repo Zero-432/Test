@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="shortcut icon" type="image/png" href="../images/logo/favicon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Cabin', sans-serif;
+
+        }
+
+        .row {
+            display: -ms-flexbox;
+            /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            /* IE10 */
+            flex-wrap: wrap;
+            margin: 0 -16px;
+        }
+
+        .col-50 {
+            -ms-flex: 50%;
+            /* IE10 */
+            flex: 50%;
+        }
+
+        .col-75 {
+            -ms-flex: 75%;
+            /* IE10 */
+            flex: 75%;
+        }
+
+
+        .col-50,
+        .col-75 {
+            padding: 0 16px;
+        }
+
+        .container {
+            width: 50%;
+            align-content: center;
+
+            background-color: #f2f2f2;
+            padding: 5px 25% 15px 25%;
+            border: 1px solid lightgrey;
+            border-radius: 3px;
+        }
+
+        input[type=text] {
+            width: 99%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+        }
+
+        label {
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            width: 20%;
+            text-align: center;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 17px;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        .txtarea {
+            display: block;
+            width: 100%;
+            font-size: 14px;
+            line-height: 34px;
+            color: #555555;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+
+        }
+
+        .txtarea:focus {
+            border-color: #66afe9;
+            outline: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <form action="/action_page.php">
+
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>CHI TIẾT THANH TOÁN</h3>
+                            <label for="fname"> Họ và tên</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Nguyễn Văn A">
+                            <label for="email"> Email</label>
+                            <input type="text" id="email" name="email" placeholder="nguyenvana@example.com">
+                            <label for="sdt"> Số điện thoại</label>
+                            <input type="text" id="city" name="sdt" placeholder="0355699280">
+                            <label for="fname">Tên thẻ</label>
+                            <input type="text" id="fname" name="firstname" placeholder="">
+
+                            <!-- Card Number -->
+                            <label for="fname">Số thẻ</label>
+                            <input type="text" id="fname" name="firstname" placeholder="">
+
+                            <!-- Expiry-->
+                            <div class="control-group">
+                                <label class="control-label" for="password">Card Expiry Date</label>
+                                <div class="controls">
+                                    <select class="span3" name="expiry_month" id="expiry_month">
+                                        <option></option>
+                                        <option value="01">Jan (01)</option>
+                                        <option value="02">Feb (02)</option>
+                                        <option value="03">Mar (03)</option>
+                                        <option value="04">Apr (04)</option>
+                                        <option value="05">May (05)</option>
+                                        <option value="06">June (06)</option>
+                                        <option value="07">July (07)</option>
+                                        <option value="08">Aug (08)</option>
+                                        <option value="09">Sep (09)</option>
+                                        <option value="10">Oct (10)</option>1
+                                        <option value="11">Nov (11)</option>
+                                        <option value="12">Dec (12)</option>
+                                    </select>
+                                    <select class="span2" name="expiry_year">
+                                        <option value="13">2013</option>
+                                        <option value="14">2014</option>
+                                        <option value="15">2015</option>
+                                        <option value="16">2016</option>
+                                        <option value="17">2017</option>
+                                        <option value="18">2018</option>
+                                        <option value="19">2019</option>
+                                        <option value="20">2020</option>
+                                        <option value="21">2021</option>
+                                        <option value="22">2022</option>
+                                        <option value="23">2023</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <label for="fname">CVV</label>
+                            <input type="text" id="fname" name="firstname" placeholder="">
+
+
+
+                        </div>
+
+
+                    </div>
+                    <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Chúng tôi sẽ liên lạc lại đúng thông tin trên
+                    </label>
+                    <a href="./Index.html"><input type="button" value="Thanh toán" class="btn" id="btnClick" /></a>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).on('click', '#btnClick', function () {
+            alert("Thanh toán thành công!");
+        });
+    </script>
+</body>
+
+</html>
